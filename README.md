@@ -29,6 +29,19 @@ python app.py
 
 ## Website Overview
 
+![image](https://github.com/akritiGupta23/Global-Sports-DataVista2/assets/129201893/246b4d42-2609-418b-8d88-6398cae2fc08)
+![image](https://github.com/akritiGupta23/Global-Sports-DataVista2/assets/129201893/a85994bd-5fd1-4857-8974-227d99065d31)
+![image](https://github.com/akritiGupta23/Global-Sports-DataVista2/assets/129201893/157f797c-216d-4ad3-bf40-61e7c3d2ccf6)
+
+
+
+
+![image](https://github.com/akritiGupta23/Global-Sports-DataVista2/assets/129201893/5858e67c-339b-44b3-8d32-3fc306250709)
+![image](https://github.com/akritiGupta23/Global-Sports-DataVista2/assets/129201893/7dd16985-4c7d-47c9-bc16-8aa378950620)
+![image](https://github.com/akritiGupta23/Global-Sports-DataVista2/assets/129201893/814d12fc-c423-464a-b353-2dca3710ef98)
+
+
+
 
 
 
