@@ -1,0 +1,333 @@
+#o-v-heading{
+    display: flex;
+    width:50%;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 5% auto 0;
+ }
+ #o-v-heading h1{
+    font-size:3em;
+    margin-bottom: 10px;
+    
+   
+   
+ }
+ #o-v-heading h3{
+    margin:0;
+    font-size:x-large;
+    color:rgb(130, 127, 127);
+    font-weight: 400;
+
+ }
+ #o-v-heading #logo{
+    display: flex;
+    justify-content: center;
+
+ }
+ #o-v-heading #logo img{
+    height:240px;
+    width:500px;
+    margin: 30px 0;
+
+ }
+ #o-v-heading #countdown{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+ }
+ #o-v-heading #countdown h2{
+    
+    font-size:3.5em;
+    color:rgb(88, 86, 86);
+    margin:0;
+
+ }
+ #o-v-heading #explain p{
+    
+    font-size:1em;
+    color:rgb(68, 66, 66);
+    font-family: "Source Serif 4", serif;
+    font-size: 1.15em;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+    line-height: 1.4em;
+
+  
+
+ }
+ #o-v-heading #explain p span{
+    font-size: xx-large;
+ }
+ /* plot1-map */
+ .o-v-graph-map {
+    width:50%;
+    margin: 45px auto 0;
+    overflow: hidden;
+    
+ }
+.o-v-graph-map .o-v-graph-heading p{
+    
+    font-size:1em;
+    color:rgb(68, 66, 66);
+    font-family: "Source Serif 4", serif;
+    font-size: 1.15em;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+    line-height: 1.4em;
+    margin-bottom: 25px;
+
+  
+
+ }
+ .o-v-graph-map .o-v-graph-heading h2{
+    
+    font-size: xx-large;
+ }
+ .o-v-graph-map .o-v-graph-plot{
+    
+    width:100%;
+ }
+ .o-v-graph-map .o-v-graph-plot .o-v-graph-plot-graph{
+    
+    width:100%;
+ }
+
+ /* plot2-top-events */
+ .o-v-graph-top-events {
+    width:50%;
+    margin: -15px auto 0;
+    overflow: hidden;
+    
+ }
+.o-v-graph-top-events .o-v-graph-heading p{
+    
+    font-size:1em;
+    color:rgb(68, 66, 66);
+    font-family: "Source Serif 4", serif;
+    font-size: 1.15em;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+    line-height: 1.4em;
+    margin-bottom: 10px;
+
+  
+
+ }
+
+ .o-v-graph-top-events .o-v-graph-plot{
+    
+    width:100%;
+ }
+ .o-v-graph-top-events .o-v-graph-plot .o-v-graph-plot-graph{
+    
+    width:100%;
+ }
+
+ /* plot3-medals */
+ .o-v-graph-medals {
+    width:50%;
+    margin: 50px auto 0;
+    overflow: hidden;
+    
+ }
+.o-v-graph-medals .o-v-graph-heading p{
+    
+    font-size:1em;
+    color:rgb(68, 66, 66);
+    font-family: "Source Serif 4", serif;
+    font-size: 1.15em;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+    line-height: 1.4em;
+    margin-bottom: 10px;
+
+  
+
+ }
+
+ .o-v-graph-medals .o-v-graph-plot{
+    
+    width:100%;
+ }
+ .o-v-graph-medals .o-v-graph-plot .o-v-graph-plot-graph{
+    
+    width:100%;
+ }
+ /* plot4-count */
+ .o-v-graph-count {
+    width:50%;
+    margin: 0px auto 0;
+    overflow: hidden;
+    
+ }
+.o-v-graph-count .o-v-graph-heading p{
+    
+    font-size:1em;
+    color:rgb(68, 66, 66);
+    font-family: "Source Serif 4", serif;
+    font-size: 1.15em;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+    line-height: 1.4em;
+    margin-bottom: 25px;
+
+  
+
+ }
+ .o-v-graph-count .o-v-graph-heading h2{
+    
+    font-size: xx-large;
+ }
+ .o-v-graph-count .o-v-graph-plot{
+    
+    width:100%;
+ }
+ .o-v-graph-count .o-v-graph-plot .o-v-graph-plot-graph{
+    
+    width:100%;
+ }
+
+ /* plot5-parts */
+ .o-v-graph-parts {
+    width:50%;
+    margin: 50px auto 0;
+    overflow: hidden;
+    
+ }
+.o-v-graph-parts .o-v-graph-heading p{
+    
+    font-size:1em;
+    color:rgb(68, 66, 66);
+    font-family: "Source Serif 4", serif;
+    font-size: 1.15em;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+    line-height: 1.4em;
+    margin-bottom: 10px;
+
+  
+
+ }
+
+ .o-v-graph-parts .o-v-graph-plot{
+    
+    width:100%;
+ }
+ .o-v-graph-parts .o-v-graph-plot .o-v-graph-plot-graph{
+    
+    width:100%;
+ }
+
+ /* plot6,7-women */
+ .o-v-graph-women {
+    width:50%;
+    margin: 50px auto 0;
+    overflow: hidden;
+    
+ }
+.o-v-graph-women .o-v-graph-heading p{
+    
+    font-size:1em;
+    color:rgb(68, 66, 66);
+    font-family: "Source Serif 4", serif;
+    font-size: 1.15em;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+    line-height: 1.4em;
+    margin-bottom: 25px;
+
+  
+
+ }
+ .o-v-graph-women .o-v-graph-heading h2{
+    
+    font-size: xx-large;
+ }
+ .o-v-graph-women .o-v-graph-plot{
+    
+    width:100%;
+ }
+ .o-v-graph-women .o-v-graph-plot .o-v-graph-plot-graph{
+    
+    width:100%;
+ }
+
+ /* plot8-women-events */
+ .o-v-graph-women-events {
+    width:50%;
+    margin: 50px auto 0;
+    overflow: hidden;
+    
+ }
+.o-v-graph-women-events .o-v-graph-heading p{
+    
+    font-size:1em;
+    color:rgb(68, 66, 66);
+    font-family: "Source Serif 4", serif;
+    font-size: 1.15em;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+    line-height: 1.4em;
+    margin-bottom: 10px;
+
+  
+
+ }
+
+ .o-v-graph-women-events .o-v-graph-plot{
+    
+    width:100%;
+ }
+ .o-v-graph-women-events .o-v-graph-plot .o-v-graph-plot-graph{
+    
+    width:100%;
+ }
+
+
+ .o-v-graph-top-medals {
+   width:50%;
+   margin: 50px auto 0;
+
+   
+}
+.o-v-graph-top-medals .o-v-graph-heading p{
+   
+   font-size:1em;
+   color:rgb(68, 66, 66);
+   font-family: "Source Serif 4", serif;
+   font-size: 1.15em;
+   font-weight: 400;
+   font-style: normal;
+   margin-top: 10px;
+   line-height: 1.4em;
+   margin-bottom: 10px;
+
+ 
+
+}
+.o-v-graph-top-medals .o-v-graph-heading h2{
+   
+   font-size: xx-large;
+
+
+}
+#ending{
+   height:40px;
+}
+
+
+

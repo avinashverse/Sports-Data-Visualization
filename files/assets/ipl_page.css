@@ -1,0 +1,41 @@
+#o-v-heading #logo #ipl-logo{
+    height:400px;
+    margin:0;
+}
+#points-table-div{
+    width:50%;
+
+}
+#points-div{
+    height: 800px;
+}
+#points-div #points-table{
+    margin-top: 30px;
+}
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.styled-table thead th {
+    background-color: #04386d;
+    border-bottom: 2px solid #dee2e6;
+    text-align: left;
+    padding: 12px;
+    color: white;
+    text-align: center;
+}
+
+.styled-table tbody td {
+    border-bottom: 1px solid #dee2e6;
+    padding: 10px;
+    text-align: center;
+}
+
+.table-row:hover {
+    background-color: #f3f4f6;
+}

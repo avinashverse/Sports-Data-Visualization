@@ -1,0 +1,400 @@
+#f-d-page{
+   padding: 10px;
+   background-color: black;
+}
+/* row1 */
+#f-d-row1{
+    display: flex;
+    justify-content: space-between;
+ }
+#f-d-logo{
+   height:400px;
+    width:200px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    padding: 20px 0 0 0;
+    color:white;
+    border-radius: 5%;
+    overflow: hidden;
+
+ }
+ #f-d-logo img{
+    height:250px;
+    width:250px;
+    
+   
+
+ }
+ #f-d-logo h2{
+    margin:0px;
+ }
+/* bar-plot */
+ .f-d-graph-bar{
+    height:400px;
+    
+    width:600px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 5%;
+    overflow: hidden;
+    padding-left: 0%;
+
+
+ }
+ .f-d-graph-bar #f-d-heading{
+    height:10%;
+    background-color: rgb(75, 157, 75);
+    width:100%;
+    display:flex;
+    align-items: center;
+    
+    justify-content: center;
+    color: white;
+
+    
+   
+    
+    
+   
+
+ }
+ .f-d-graph-bar #f-d-plot #time-radio{
+
+   width:150px;
+   margin-left: 30px;
+   color:white;
+   position: absolute;
+   right:10px;
+   top:10px;
+   z-index: 1;
+ 
+   accent-color:  rgb(75, 157, 75);
+ 
+
+}
+.f-d-graph-bar #f-d-plot #time-radio input{
+   margin-right: 4px;
+}
+
+
+
+ .f-d-graph-bar #f-d-heading h4{
+    font-size: large;
+   color: white;
+   margin:0px;
+
+   padding: 0px;
+    
+   
+
+ }
+ .f-d-graph-bar #f-d-plot{
+   height:100%;
+   width:100%;
+   overflow: hidden;
+   position: relative;
+
+ }
+ .f-d-graph-bar #f-d-plot #f-d-plot-graph-bar{
+   height:110%;
+   width:110%;
+   margin-top:-15px;
+
+ }
+
+
+
+ /* sankey-plot */
+ .f-d-graph-sankey{
+   height:400px;
+   
+   width:570px;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   border: 2px solid white;
+   border-radius: 5%;
+   overflow: hidden;
+   padding-left: 0%;
+
+
+}
+.f-d-graph-sankey #f-d-heading{
+
+
+   height:10%;
+   background-color: rgb(75, 157, 75);
+   width:100%;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+
+   
+   
+  
+
+}
+.f-d-graph-sankey #f-d-heading h4{
+   font-size: large;
+  color: white;
+  margin:0px;
+  padding: 0px;
+   
+  
+
+}
+.f-d-graph-sankey #f-d-plot{
+  height:100%;
+  width:100%;
+  overflow: hidden;
+}
+.f-d-graph-sankey #f-d-plot #f-d-plot-heading{ 
+   color:white;
+   display: flex;
+   justify-content: space-between;
+   padding:10px 20px 0px;
+   font-weight: 100;
+ }
+ .f-d-graph-sankey #f-d-plot #f-d-plot-heading h3{ 
+   color:white;
+   font-weight: 100;
+   
+ }
+ .f-d-graph-sankey #f-d-plot #f-d-plot-heading #mid{ 
+   margin-left: 50px;
+   
+ }
+.f-d-graph-sankey #f-d-plot #f-d-plot-graph{
+  height:100%;
+  width:100%;
+
+}
+
+
+/* row2 */
+#f-d-row2{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 40px;
+}
+
+/* winner-plot */
+.f-d-graph-winner{
+   height:600px;
+   
+   width:800px;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   border: 2px solid white;
+   border-radius: 5%;
+   overflow: hidden;
+   padding-left: 0%;
+
+
+}
+.f-d-graph-winner #f-d-heading{
+   height:10%;
+   background-color: rgb(75, 157, 75);
+   width:100%;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+
+   
+   
+  
+
+}
+.f-d-graph-winner #f-d-heading h4{
+   font-size: large;
+  color: white;
+  margin:0px;
+  padding: 0px;
+   
+  
+
+}
+.f-d-graph-winner #f-d-plot{
+  height:100%;
+  width:110%;
+  overflow: hidden;
+}
+.f-d-graph-winner #f-d-plot #f-d-plot-graph{
+  height:110%;
+  width:100%;
+  margin-top:-15px;
+
+}
+
+ /* map-plot */
+ .f-d-graph-map{
+   height:600px;
+   
+   width:600px;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   border: 2px solid white;
+   border-radius: 5%;
+   overflow: hidden;
+   padding-left: 0%;
+
+
+}
+.f-d-graph-map #f-d-heading{
+
+
+   height:10%;
+   background-color: rgb(75, 157, 75);
+   width:100%;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+
+   
+   
+  
+
+}
+.f-d-graph-map #f-d-heading h4{
+   font-size: large;
+  color: white;
+  margin:0px;
+  padding: 0px;
+   
+  
+
+}
+.f-d-graph-map #f-d-plot{
+  height:100%;
+  width:100%;
+  overflow: hidden;
+}
+
+.f-d-graph-map #f-d-plot #cumulative-goals-map{
+  height:100%;
+  width:110%;
+  margin-left:-10px;
+  margin-top:-10px;
+
+}
+
+/* row2 */
+#f-d-row3{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 40px;
+   height:580px;
+}
+
+/* winner-plot */
+.f-d-graph-teams{
+   height:550px;
+   
+   width:900px;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   border: 2px solid white;
+   border-radius: 5%;
+   overflow: hidden;
+   padding-left: 0%;
+
+
+}
+.f-d-graph-teams #f-d-heading{
+   height:10%;
+   background-color: rgb(75, 157, 75);
+   width:100%;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+
+   
+   
+  
+
+}
+.f-d-graph-teams #f-d-heading h4{
+   font-size: large;
+  color: white;
+  margin:0px;
+  padding: 0px;
+   
+  
+
+}
+.f-d-graph-teams #f-d-plot{
+  height:100%;
+  width:97%;
+  overflow: hidden;
+}
+.f-d-graph-teams #f-d-plot #f-d-plot-graph{
+  height:108%;
+  width:115%;
+  margin-top:-18px;
+  margin-left: -32px;
+
+}
+ /* line-plot */
+ .f-d-graph-line{
+   height:550px;
+   
+   width:500px;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   border: 2px solid white;
+   border-radius: 5%;
+   overflow: hidden;
+   padding-left: 0%;
+
+
+}
+.f-d-graph-line #f-d-heading{
+
+
+   height:10%;
+   background-color: rgb(75, 157, 75);
+   width:100%;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+
+   
+   
+  
+
+}
+.f-d-graph-line #f-d-heading h4{
+   font-size: large;
+  color: white;
+  margin:0px;
+  padding: 0px;
+   
+  
+
+}
+.f-d-graph-line #f-d-plot{
+  height:100%;
+  width:100%;
+  overflow: hidden;
+}
+
+.f-d-graph-line #f-d-plot #f-d-plot-graph{
+  height:100%;
+  width:110%;
+  margin-left:-10px;
+  margin-top:-10px;
+
+}

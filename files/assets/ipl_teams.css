@@ -1,0 +1,229 @@
+#i-t-page{
+   padding: 10px;
+   background-color: black;
+}
+/* row1 */
+#i-t-row1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    
+ }
+#i-t-row1 #i-t-team{
+  display: flex;
+  height: 890px;
+  width: 420px;
+  color:white;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border:2px solid white;
+  box-shadow: 10px 10px 10px rgb(27, 48, 238);
+
+}
+#i-t-row1 #i-t-team h2{
+  margin: 10px;
+}
+#i-t-row1 #i-t-team h1{
+     margin: 20px;
+     font-size: 4em;
+}
+#i-t-row1 #i-t-team #team-dropdown{
+  width:350px;
+}
+#i-t-row1 #i-t-team #team-jersey-display img{
+  height:500px;
+  margin-top: 15px;
+}
+ 
+#i-t-next{
+  display: flex;
+  flex-direction: column;
+  height: 890px;
+  justify-content: space-between;
+  padding:0%;
+}
+/* bar-plot */
+ 
+#i-t-row1 #i-t-next #i-t-graph-pow-death{
+  display: flex;
+  height: 430px;
+  width: 900px;
+  border: 2px solid white;
+  box-shadow: 10px 10px 10px rgb(27, 48, 238);
+ 
+}
+#i-t-row1 #i-t-next #i-t-graph-pow-death .i-t-plot{
+
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+ 
+}
+#i-t-row1 #i-t-next #i-t-graph-pow-death .i-t-plot #i-t-plot-pow-death,#i-t-plot-pow-death-wicket{
+  width: 107%;
+  height:95%;
+  margin-top: -20px;
+  margin-left: 10px;
+}
+#i-t-row1 #i-t-next #i-t-graph-pow-death .i-t-plot #i-t-plot-pow-death-heading,#i-t-plot-pow-death-heading-wicket{
+  color:white;
+  margin-top: 10px;
+  z-index: 1;
+  position:relative;
+}
+
+ /* row2 */
+ #i-t-row2{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  margin-top: 40px;
+  
+}
+#i-t-row2  #i-t-2-col1,#i-t-2-col2{
+  display: flex;
+  height: 500px;
+  width: 650px;
+  color:white;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border:2px solid white;
+  box-shadow: 10px 10px 10px rgb(27, 48, 238);
+}
+#i-t-row2  #i-t-2-col1 .i-t-plot{
+   height:100%;
+   width:100%;
+   overflow: hidden;
+
+}
+#i-t-row2  #i-t-2-col1 .i-t-plot h1{
+  color:white;
+  margin-top: 10px;
+  z-index: 1;
+  position:relative;
+
+}
+#i-t-row2  #i-t-2-col1 .i-t-plot h3{
+  color:white;
+  margin-top: 10px;
+  z-index: 1;
+  position:relative;
+  margin-bottom: 0;
+
+}
+#i-t-row2  #i-t-2-col1 .i-t-plot #i-t-plot-pow-death-strike{
+  width:100%;
+  margin-top: -20px;
+   
+}
+
+/* col2 */
+
+#i-t-row2  #i-t-2-col2 .i-t-plot{
+   height:100%;
+   width:100%;
+   overflow: hidden;
+
+}
+#i-t-row2  #i-t-2-col2 .i-t-plot h1{
+  color:white;
+  margin-top: 10px;
+  z-index: 1;
+  position:relative;
+
+}
+#i-t-row2  #i-t-2-col2 .i-t-plot h3{
+  color:white;
+  margin-top: 10px;
+  z-index: 1;
+  position:relative;
+  margin-bottom: 0;
+
+}
+#i-t-row2  #i-t-2-col2 .i-t-plot #i-t-plot-pow-death-eco{
+  width:100%;
+  margin-top: -20px;
+   
+}
+
+ /* row2 */
+ #i-t-row3{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  margin-top: 40px;
+  
+}
+#i-t-row3  #i-t-3-col1{
+  display: flex;
+  height: 500px;
+  width: 700px;
+  color:white;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border:2px solid white;
+  box-shadow: 10px 10px 10px rgb(27, 48, 238);
+}
+#i-t-row3  #i-t-3-col2{
+  display: flex;
+  height: 500px;
+  width: 600px;
+  color:white;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border:2px solid white;
+  box-shadow: 10px 10px 10px rgb(27, 48, 238);
+}
+#i-t-row3  #i-t-3-col1 .i-t-plot{
+   height:100%;
+   width:100%;
+   overflow: hidden;
+
+}
+#i-t-row3  #i-t-3-col1 .i-t-plot h1{
+  color:white;
+  margin-top: 10px;
+  z-index: 1;
+  position:relative;
+
+}
+#i-t-row3  #i-t-3-col1 .i-t-plot h3{
+  color:white;
+  margin-top: 10px;
+  z-index: 1;
+  position:relative;
+  margin-bottom: 0;
+
+}
+#i-t-row3  #i-t-3-col1 .i-t-plot #i-t-plot-num{
+  width:100%;
+  margin-top: -30px;
+   
+}
+
+/* col2 */
+
+#i-t-row3  #i-t-3-col2 .i-t-plot{
+   height:100%;
+   width:100%;
+   overflow: hidden;
+
+}
+#i-t-row3  #i-t-3-col2 .i-t-plot h1{
+  color:white;
+  margin-top: 10px;
+  z-index: 1;
+  position:relative;
+
+}
+
+#i-t-row3  #i-t-3-col2 .i-t-plot #i-t-plot-compare{
+  width:100%;
+  margin-top: -40px;
+  margin-left:20px;
+   
+}

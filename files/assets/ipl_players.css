@@ -1,0 +1,186 @@
+#i-t-page{
+   padding: 10px;
+   background-color: black;
+}
+/* row1 */
+#i-p-row1{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  
+}
+#i-p-row1 .boxes{
+  display: flex;
+  height: 150px;
+  width: 250px;
+  color:white;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border:2px solid white;
+  background: linear-gradient(#e967fd, #4040f9);
+  padding-top: 20px;
+  
+  
+}
+#i-p-row1 .boxes h2{
+  margin-bottom: 25px;
+  
+  
+}
+#i-p-row1 .boxes h1{
+  font-size: 2.5em;
+  
+  
+}
+
+
+
+/* row1 */
+#i-p-row2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    margin-top: 30px;
+    
+ }
+#i-p-row2 #i-p-player{
+  display: flex;
+  height: 840px;
+  width: 420px;
+  color:white;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border:2px solid white;
+  box-shadow: 10px 10px 10px #4040f9;
+
+}
+#i-p-row2 #i-p-player h2{
+  margin: 10px;
+
+}
+#i-p-row2 #i-p-player h1{
+  margin: 20px;
+  margin-top: 40px;
+  font-size: 4em;
+
+}
+#i-p-row2 #i-p-player #player-dropdown{
+  width:350px;
+}
+#i-p-row2 #i-p-player #player-img-display img{
+  height:500px;
+  margin-top: 15px;
+}
+
+/* next */
+#i-p-row2 #i-p-next{
+  display: flex;
+  flex-direction: column;
+  height: 840px;
+  justify-content: space-between;
+  padding:0%;
+}
+ 
+#i-p-row2 #i-p-next #i-p-graph{
+  display: flex;
+  height: 400px;
+  width: 900px;
+  border: 2px solid white;
+  box-shadow: 10px 10px 10px rgb(27, 48, 238);
+ 
+}
+#i-p-row2 #i-p-next #i-p-graph .i-p-plot{
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+ 
+}
+#i-p-row2 #i-p-next #i-p-graph .i-p-plot #i-p-runs,#i-p-wickets{
+  width: 107%;
+  height:95%;
+  margin-top: -30px;
+
+}
+#i-p-row2 #i-p-next #i-p-graph .i-p-plot #i-p-runs-heading,#i-p-wickets-heading{
+  color:white;
+  margin-top: 10px;
+  z-index: 1;
+  position:relative;
+}
+
+/* row3 */
+
+#i-p-row3{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  margin-top: 30px;
+  
+}
+#i-p-row3 #i-p-graph-over{
+display: flex;
+height: 500px;
+width: 550px;
+color:white;
+flex-direction: column;
+text-align: center;
+align-items: center;
+border:2px solid white;
+box-shadow: 10px 10px 10px #4040f9;
+
+}
+#i-p-row3 #i-p-graph-against{
+  display: flex;
+  height: 500px;
+  width: 750px;
+  color:white;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border:2px solid white;
+  box-shadow: 10px 10px 10px #4040f9;
+  
+  }
+#i-p-row3 .i-p-graph .i-p-plot{
+
+  width: 100%;
+  overflow: hidden;
+ 
+  
+  }
+
+#i-p-row3 .i-p-graph .i-p-plot #i-p-over{
+
+    margin-top:-50px;
+    margin-left: -10px;
+     
+      
+}
+#i-p-row3 .i-p-graph .i-p-plot #i-p-against{
+
+  margin-top:-50px;
+  margin-left: 0px;
+   
+    
+}
+#i-p-row3 .i-p-graph .i-p-plot h1{
+
+  color:white;
+ 
+  margin: 10px 10px 0;
+  z-index: 1;
+  position:relative;
+   
+}
+
+#i-p-row3 .i-p-graph .i-p-plot h3{
+
+  color:white;
+  margin-top: 10px;
+  z-index: 1;
+  position:relative;
+  margin-bottom: 0;
+   
+}
